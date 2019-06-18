@@ -1,0 +1,11 @@
+div {
+  color: white;
+  background-color: cornflowerblue;
+  font-size: 22px;
+  font-weight: bold;
+  height: 35px;
+  text-align: center;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}

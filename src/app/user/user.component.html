@@ -1,0 +1,27 @@
+<H1> User Registration </H1>
+
+<div class="userR">
+
+  <form>
+    <div>
+      <div class="label">User Name</div>
+      <div class="inputcls"><input type=text [(ngModel)]="name" name="name" form="name" value={{name}}></div>
+    </div>
+
+    <div>
+      <div class="label">Address</div>
+      <div class="inputcls"><input type="text" name="address"></div>
+    </div>
+
+    <div>
+            <div class="label">Phone Number</div>
+            <div class="inputcls"><input type="text" name="phNumber"></div>
+          </div>
+
+    <div>
+      <button class="submit" (click)="get()">Get Details </button>
+      <button class="submit" (click)="create(name)">Create </button>
+    </div>
+
+  </form>
+</div>
